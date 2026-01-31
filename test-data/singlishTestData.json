@@ -1,0 +1,182 @@
+[
+  {
+    "id": "Pos_Fun_0001",
+    "input": "mama havasata gedhara yanavaa",
+    "expectedContains": "මම හවසට ගෙදර යනවා"
+  },
+  {
+    "id": "Pos_Fun_0002",
+    "input": "Api neLum kuLuNa balanna yanavaa saha pasuva gedhara yanavaa",
+    "expectedContains": "අපි නෙළුම් කුළුණ බලන්න යනවා සහ පසුව ගෙදර යනවා"
+  },
+  {
+    "id": "Pos_Fun_0003",
+    "input": "oya paarata enavaanam mama balan innavaa.",
+    "expectedContains": "ඔය පාරට එනවානම් මම බලන් ඉන්නවා"
+  },
+  {
+    "id": "Pos_Fun_0004",
+    "input": "oyaata kohomadha?",
+    "expectedContains": "ඔයාට කොහොමද"
+  },
+  {
+    "id": "Pos_Fun_0005",
+    "input": "vahaama dhuuvalaa enna",
+    "expectedContains": "වහාම දුවලා එන්න"
+  },
+  {
+    "id": "Pos_Fun_0006",
+    "input": "mama ehema karanavaa.",
+    "expectedContains": "මම එහෙම කරනවා"
+  },
+  {
+    "id": "Pos_Fun_0007",
+    "input": "mama kohevath giye naehae.",
+    "expectedContains": "මම කොහෙවත් ගියෙ නැහැ"
+  },
+  {
+    "id": "Pos_Fun_0008",
+    "input": "aayuboovan!",
+    "expectedContains": "ආයුබෝවන්"
+  },
+  {
+    "id": "Pos_Fun_0009",
+    "input": "karuNaakaralaa mata podi udhavvak karanna puLuvandha?",
+    "expectedContains": "කරුණාකරලා මට පොඩි උදව්වක් කරන්න පුළුවන්ද"
+  },
+  {
+    "id": "Pos_Fun_0010",
+    "input": "oyaa nidhaaganna",
+    "expectedContains": "ඔයා නිදාගන්න"
+  },
+  {
+    "id": "Pos_Fun_0011",
+    "input": "mata nidhimathayi.",
+    "expectedContains": "මට නිදිමතයි"
+  },
+  {
+    "id": "Pos_Fun_0012",
+    "input": "udheeta kaeema kanna",
+    "expectedContains": "උදේට කෑම කන්න"
+  },
+  {
+    "id": "Pos_Fun_0013",
+    "input": "mama gedhara yanavaa",
+    "expectedContains": "මම ගෙදර යනවා"
+  },
+  {
+    "id": "Pos_Fun_0014",
+    "input": "Hari hari mama yannam",
+    "expectedContains": "හරි හරි මම යන්නම්"
+  },
+  {
+    "id": "Pos_Fun_0015",
+    "input": "mama iiyee gedhara giyaa.",
+    "expectedContains": "මම ඉයේ ගෙදර ගියා"
+  },
+  {
+    "id": "Pos_Fun_0016",
+    "input": "mama dhaen gedhara vaeda karanavaa.",
+    "expectedContains": "මම දැන් ගෙදර වැඩ කරණවා"
+  },
+  {
+    "id": "Pos_Fun_0017",
+    "input": "mama heta udhenma maathara enavaa.",
+    "expectedContains": "මම හෙට උදෙන්ම මාතර එනවා"
+  },
+  {
+    "id": "Pos_Fun_0018",
+    "input": "api yamu.",
+    "expectedContains": "අපි යමු"
+  },
+  {
+    "id": "Pos_Fun_0019",
+    "input": "mama Zoom meeting ekakata enavaa.",
+    "expectedContains": "මම Zoom meeting එකකට එනවා"
+  },
+  {
+    "id": "Pos_Fun_0020",
+    "input": "api Kandy valata yamudha.",
+    "expectedContains": "අපි Kandy වලට යමුද"
+  },
+  {
+    "id": "Pos_Fun_0021",
+    "input": "oyaa hari, ehenam api yamu.",
+    "expectedContains": "ඔයා හරි, එහෙනම් අපි යමු"
+  },
+  {
+    "id": "Pos_Fun_0022",
+    "input": "Rs. 53300",
+    "expectedContains": "රු. 53300"
+  },
+  {
+    "id": "Pos_Fun_0023",
+    "input": "Mama vaahanayak miladhii gaththaa",
+    "expectedContains": "මම වාහනයක් මිලදී ගත්තා"
+  },
+  {
+    "id": "Pos_Fun_0024",
+    "input": "hitapu janaaDhipathi ranil vikramasiQQhata adhaaLa vimarshana katayuthu maasayak thuLa avasan kara maarthu masa nadu paevariimata katayuthu karana bava niithipathivarayaa adha koLaBA kotuva maheesthraath aDhikaraNayata dhaenumdhii thibenavaa.adhaala nadukaraya adha koLaBA kotuva maheesthraath isuru neththikumaara idhiriyee kaeDHAvanu laebu avasThaaveedhii niithipathivarayaa venuven penii siti athireeka solisitar jenaraal dhiliipa piris mema dhaenum dhiima sidhu kara aethi bavayi  saDHAhan vennee.eseema ranil vikramasiQQhata adhaaLa naduvee saekakaruveku lesa aDhikaraNayata idhiripath vuu hitapu janaaDhipathi leekam saman eekanaayaka  pebaravaari 11 vanadhaa dhakvaa rakShitha banDhanaagaara gatha karana lesa koLaBA kotuva maheesthraath aDhikaraNaya niyama kara thibenavaa.",
+    "expectedContains": "හිටපු ජනාධිපති රනිල් වික්‍රමසිංහට අදාළ විමර්ශන කටයුතු මාසයක් තුළ අවසන් කර මාර්තු මස නඩු පැවරීමට කටයුතු කරන බව නීතිපතිවරයා අද කොළඹ කොටුව මහේස්ත්‍රාත් අධිකරණයට දැනුම්දී තිබෙනවා"
+  },
+  {
+    "id": "Neg_Fun_0001",
+    "input": "MaMa Dan GeDhArA YaNaVaA. Oya enawada",
+    "expectedContains": "මම දැන් ගෙදර යනවා.ඔයා එනවද"
+  },
+  {
+    "id": "Neg_Fun_0002",
+    "input": "mama @#$% &*() yanavaa",
+    "expectedContains": "මම @#$% &*() යනවා"
+  },
+  {
+    "id": "Neg_Fun_0003",
+    "input": "<b>api</b> sellam karanna <script>alert()</script> yanavaa",
+    "expectedContains": "<b>අපි</b> සෙල්ලම් කරන්න <script>alert()</script> යනවා"
+  },
+  {
+    "id": "Neg_Fun_0004",
+    "input": "mamagedharayanavaamatabathooneeapipaasalyanavaa",
+    "expectedContains": "මමගෙදරයනවාමටබතෝනේඅපිපාසල්යනවා"
+  },
+  {
+    "id": "Neg_Fun_0005",
+    "input": "Adoo bro, eka hariyata Karapanko!",
+    "expectedContains": "අඩෝ bro, එක හරියට ඛරපන්කො"
+  },
+  {
+    "id": "Neg_Fun_0006",
+    "input": "Api mooda tharindhu iiyee balanna yanavaa heta giyaa",
+    "expectedContains": "අපි මෝඩ තරින්දු ඊයේ බලන්න යනවා හෙට ගියා"
+  },
+  {
+    "id": "Neg_Fun_0007",
+    "input": "apiiiiii sigiriya balanna giyaaaaaa",
+    "expectedContains": "අපීඊඊ sigiriya බලන්න ගියාආආ"
+  },
+  {
+    "id": "Neg_Fun_0008",
+    "input": "! ? . , ; : / …",
+    "expectedContains": "! ? . , ; : / ..."
+  },
+  {
+    "id": "Neg_Fun_0009",
+    "input": "mama go to the gedhara yanavaa tomorrow.",
+    "expectedContains": "මම go to තෙ ගෙදර යනවා tomorrow"
+  },
+  {
+    "id": "Neg_Fun_0010",
+    "input": "m4m4 93dh4r4 y4n4v4",
+    "expectedContains": "m4m4 93ද්4ර්4 ය4ණ4ව4"
+  },
+  {
+    "id": "Neg_UI_0001",
+    "input": "Paste 10,000 character text",
+    "expectedContains": "The browser becomes unresponsive for 15+ seconds"
+  },
+  {
+    "id": "Neg_UI_0002",
+    "input": "Click language switch button 10 times in 2 seconds",
+    "expectedContains": "The UI is confusing; shows a mix of both languages"
+  }
+]
