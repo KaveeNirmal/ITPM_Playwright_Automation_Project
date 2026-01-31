@@ -1,4 +1,4 @@
-🎯 Singlish to Sinhala Translator - Automated Testing Suite
+# Singlish to Sinhala Translator - Automated Testing Suite
 https://img.shields.io/badge/Playwright-2.4+-45ba4b.svg?logo=playwright
 https://img.shields.io/badge/Node.js-16%252B-339933.svg?logo=node.js
 https://img.shields.io/badge/License-Academic-blue.svg
@@ -10,10 +10,10 @@ Module: PAF
 Assignment: Singlish to Sinhala Translator Testing
 
 
-📋 #Project Overview
+# Project Overview
 A comprehensive automated testing framework built with Playwright for validating a Singlish (Romanized Sinhala) to Sinhala script transliteration system. This suite tests accuracy, robustness, and performance across various linguistic scenarios and edge cases.
 
-✨ #Features
+# Features
 ✅ 34+ comprehensive test cases with real Singlish inputs
 ✅ Automated UI testing using Playwright
 ✅ Multiple browsers support (Chromium, Firefox, WebKit)
@@ -24,7 +24,7 @@ A comprehensive automated testing framework built with Playwright for validating
 ✅ Real-time translation validation
 ✅ Error handling verification
 
-🚀 #Quick Start
+# Quick Start
 Prerequisites
 Node.js 16 or higher
 
@@ -65,7 +65,7 @@ npm run report
 # Open last test report
 npx playwright show-report
 
-📁 #Project Structure
+# Project Structure
 text
 singlish-translator-tests/
 ├── tests/
@@ -84,21 +84,21 @@ singlish-translator-tests/
 │   └── screenshots/                 # Screenshots for failures
 └── README.md                        # This file
 
-📊 #Test Coverage
-Positive Test Cases (24) ✅
+# Test Coverage
+Positive Test Cases (24) 
 Category	Test Cases	Description
 Simple Sentences	TC_Pos_Fun_0001, TC_Pos_UI_0004-0008, etc.	Daily usage, ≤30 characters
 Medium Sentences	TC_Pos_Fun_0002-0003, TC_Pos_UI_0009, etc.	Compound/complex, 31-299 chars
 Long Content	TC_Pos_UI_0024	Paragraphs, ≥300 characters
 Grammatical Types	TC_Pos_UI_0015-0017	Past/Present/Future tense
 Special Cases	TC_Pos_UI_0019-0023	Mixed language, punctuation
-Negative Test Cases (10) ❌
+Negative Test Cases (10) 
 Category	Test Cases	Description
 Input Errors	TC_Neg_Fun_0001-0002	Mixed case, special chars
 Security	TC_Neg_Fun_0003	HTML/script injection
 Edge Cases	TC_Neg_Fun_0004-0010	No spaces, leet speak, etc.
 
-🧪 #How Tests Work
+# How Tests Work
 Initialize Test Environment
 
 Launches browser instance
@@ -124,50 +124,8 @@ Logs detailed error information
 
 Creates comprehensive HTML report
 
-🔧 #Configuration
-playwright.config.js
-javascript
-module.exports = {
-  timeout: 30000,
-  retries: 1,
-  workers: 3,
-  reporter: [['html'], ['line'], ['junit']],
-  use: {
-    browserName: 'chromium',
-    headless: true,
-    screenshot: 'only-on-failure',
-    trace: 'retain-on-failure',
-    video: 'on-first-retry'
-  },
-  projects: [
-    {
-      name: 'chromium',
-      use: { browserName: 'chromium' }
-    },
-    {
-      name: 'firefox',
-      use: { browserName: 'firefox' }
-    },
-    {
-      name: 'webkit',
-      use: { browserName: 'webkit' }
-    }
-  ]
-};
-Customizing Tests
-javascript
-// Update test data
-const testData = require('./test-data/singlishTestData.json');
 
-// Add new test case
-testData.push({
-  "id": "TC_Custom_0001",
-  "input": "your singlish text",
-  "expectedContains": "expected sinhala output",
-  "category": "Custom"
-});
-
-📈 #Test Reports
+# Test Reports
 HTML Report
 https://via.placeholder.com/800x400/45ba4b/ffffff?text=Playwright+HTML+Report
 
@@ -185,7 +143,7 @@ For CI/CD integration:
 bash
 # Generate JUnit report
 npx playwright test --reporter=junit --output=reports/junit.xml
-🎯 Sample Test Cases
+# Sample Test Cases
 Simple Sentence
 json
 {
@@ -206,7 +164,7 @@ json
   "type": "Negative",
   "description": "Tests punctuation-only input handling"
 }
-🤝 Contributing
+# Contributing
 Fork the repository
 
 Create a feature branch (git checkout -b feature/new-tests)
@@ -224,24 +182,15 @@ Open a Pull Request
 Adding New Test Cases
 Follow this format:
 
-json
-{
-  "id": "TC_Type_Category_XXXX",
-  "input": "Singlish text input",
-  "expectedContains": "Expected Sinhala output substring",
-  "category": "Category name",
-  "type": "Positive/Negative",
-  "length": "S/M/L",
-  "description": "Brief description"
-}
-🚨 Troubleshooting
+
+# Troubleshooting
 Issue	Solution
 Browser won't launch	Run npx playwright install --force
 Tests timeout	Increase timeout in playwright.config.js
 Missing dependencies	Delete node_modules and run npm install
 Report not generating	Check write permissions in reports/ directory
 Translation not appearing	Verify translator URL is correct
-📚 Resources
+# Resources
 Playwright Documentation
 
 Singlish to Sinhala Transliteration Guide
